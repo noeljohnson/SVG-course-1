@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!--GTG-->
+<html lang="en">
+  
+  <head>
+    <meta charset="utf-8"/>
+    <title>HTML file with inline SVG</title>
+    <style>
+      rect, circle{
+        stroke: black;
+        stroke-width: 3px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <svg width="400px" height="400px">
+      <defs>
+        <circle id="light" cx="70px" r="30px"/>
+      </defs>
+      <rect x="20px" y="20px" width="100px" height="280px" style="fill:blue;"/>
+      <g style="stroke-width:2px;">
+        <use xlink:href="#light" y="80px" style="fill:red;"/> 
+        <use xlink:href="#light" y="160px" style="fill:yellow;"/>
+        <use xlink:href="#light" y="240px" style="fill:green;"/>
+      </g>
+    </svg>
+  </body>
+
+</html>
+<!--TYJC-->

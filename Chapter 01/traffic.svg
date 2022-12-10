@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xml:lang="en"  width="140px" height="320px">
+  <title xml:lang="en">Primary Color Stoplight</title>
+  <rect x="20px" y="20px" width="100px" height="280px" fill="blue"
+    stroke="black" stroke-width="3px"/>
+  <circle cx="70px" cy="80px" r="30px" fill="red" stroke="black"
+    stroke-width="2px"/>
+  <circle cx="70px" cy="160px" r="30px" fill="yellow" stroke="black"
+    stroke-width="2px"/>
+  <circle cx="70px" cy="240px" r="30px" fill="green" stroke="black"
+    stroke-width="2px"/>
+</svg>
